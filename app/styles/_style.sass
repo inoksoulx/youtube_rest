@@ -1,0 +1,119 @@
+body
+  font-family: 'Montserrat', sans-serif
+  .wrapper
+    display: flex
+    justify-content: center
+    align-items: center
+
+    form
+      margin-top: 50px
+      position: fixed
+
+      #text_request
+        font-family: 'Montserrat', sans-serif
+        padding: 5px
+        font-size: 18px
+        vertical-align: middle
+        outline: none
+        transition: 0.3s all
+        border-top: 0px solid #2eb9ce
+        border-right: 0px solid #2eb9ce
+        border-bottom: 3px solid #2eb9ce
+        border-left: 0px solid #2eb9ce
+
+        &:hover
+          box-shadow: 0px 6px 13px -5px rgba(12, 180, 233, 0.7)
+
+
+      #btn_request
+        font-family: 'Montserrat', sans-serif
+        padding: 8px
+        vertical-align: middle
+        background-color: inherit
+        width: 90px
+        border-radius: 5px
+        border: 2px solid rgba(#2ebacf, 0.61)
+        outline: none
+        font-weight: 600
+        letter-spacing: 1.2px
+        transition: 0.3s all
+
+        &:hover
+          cursor: pointer
+
+        &:active
+          color: rgba(#2ebacf, 0.61)
+          border: 2px solid rgba(0, 0, 0, 0.78)
+
+  .wrapper_movies
+    display: inline-flex
+    margin-top: 100px
+
+    .container
+      margin: 20px
+      position: relative
+      background-color: white
+      height: 550px
+      border-radius: 5px
+      border: 2px solid rgba(#2ebacf, 0.61)
+
+      img
+        margin-top: 12px
+
+      .title
+        display: block
+        position: absolute
+        top: 80px
+        color: black
+        width: 100%
+        text-align: center
+        font-size: 20px
+        padding: 5px 0 5px 0
+        font-weight: bold
+
+        &::before
+          content: ''
+          background: rgba(#2ebacf, 0.2)
+          height: 100%
+          width: 100%
+          position: absolute
+          top: 0
+          left: 0
+
+      .container_info
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-top: 60px
+
+        .icons
+          display: flex
+          flex-direction: column
+          align-items: center
+          margin-right: 80px
+
+          i
+            margin-top: 15px
+
+        .info
+          display: flex
+          flex-direction: column
+          align-items: center
+
+          span
+            margin-top: 25px
+            font-size: 18px
+
+      a
+        display: block
+        text-decoration: none
+        height: 45px
+        width: 120px
+        background: rgb(41, 55, 71)
+        font-size: 16px
+        color: white
+        text-align: center
+        line-height: 2.9
+        margin: 30px auto
+        border-radius: 30px
+        margin-top: 60px
